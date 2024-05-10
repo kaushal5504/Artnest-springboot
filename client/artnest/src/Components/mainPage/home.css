@@ -1,0 +1,362 @@
+.home-navbar{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    display: flex;
+}
+
+.logo_block{
+  width: 25vw;
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img{
+    width: 60%;
+    height: 70%;
+    display: flex;
+
+    background-color: inherit;
+}
+
+.logo_block text{
+  font-size: 50px;
+  background: -webkit-linear-gradient(#e95050, #ca50e9, #29dd86);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dancing-script-artnest {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+  }
+
+.searchBar_block{
+    
+    width: 60vw;
+    background-color: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/* .searchBar_block input{
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 80%;
+    height: 10%;
+} */
+
+
+.searchBar_block input{
+    
+    margin-top: 50px;
+    font-size: large;
+    color: black;
+    width: 80%;
+    height: 20%;
+    border-radius: 10px;
+    padding-left: 30px;  /* Space for icon */
+    /* background-image: linear-gradient(to right, #e95050, #ca50e9, #29dd86); */
+    padding-left: 40px;
+    
+}
+
+.category{
+    width: 100%;
+    height: 40%;
+    padding-left: 20px;
+    background-color: inherit;
+    padding: 0px;
+    
+
+}
+
+.category ul{
+    width: inherit;
+    text-decoration: none;
+    background-color: inherit;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+   
+    
+
+}
+
+.category ul li .link{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    background-color: inherit;
+    /* padding-top: 20px;
+    padding-left: 20px; */
+    /* font-size: large;
+    font-weight: bold; */
+    /* background: -webkit-linear-gradient(#f60606, #e97742, #9514e4); */
+   /* -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; */
+   /* font-family: "Pacifico", cursive; */
+   font-weight: 400;
+   
+}
+
+
+input::placeholder {
+    color: rgb(0, 0, 0);  /* Replace #yourColor with your desired color */
+          /* Ensure full opacity (optional for Firefox) */
+  }
+
+/* .other_block text{
+    background-color: inherit;
+    font-size: larger;
+    display: flex;
+    
+    
+}
+
+.combined{
+    color: aliceblue;
+    background-color: black; 
+    height: 40px;
+    display: flex;
+
+}
+
+
+.heart{
+    background-color: red; 
+} */
+
+.other_block{
+    width: 25vw;
+    background-color:inherit;
+    display: flex;
+    
+}
+
+.combined{
+    background-color:inherit;
+    width: 50%;
+    color: black;
+    padding-left: 25px;
+    padding-top: 10px;
+    
+    
+}
+
+.login-button, .signup-button, text{
+    
+    background-color: inherit; 
+    color: inherit;  
+    border: none;  
+    padding-left: 4px;
+    cursor: pointer;  
+    font-family: inherit;  
+    text-decoration: none;  
+    font-size: larger;
+    
+  }
+.heart{
+    width: 10%;
+    padding-top: 10px;
+    background-color: white;
+}
+
+
+
+.cart{
+    padding-top: 10px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+.searchBar_block img{
+    background-color: violet;
+}
+
+.carousel{
+    height: 50%;
+}
+
+.divider{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(95, 139, 133);
+}
+
+.divider-two{
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+
+.home-footer{
+    width: inherit;
+    
+}
+
+.first-row {
+    height: 500px;
+    background-color: #f2dbf5;
+    display: flex;
+}
+
+.second-row{
+    height: 500px;
+    background-color: #bbf2c1;
+    display: flex;
+}
+.first-text, .second-text, .third-text{
+    padding: 90px;
+    background-color: #f2dbf5;
+    height: inherit;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+.first-photo img{
+    width: 100%;
+    height: 100%;
+}
+.second-text img{
+    width: 1400px;
+    height: 500px;
+}
+.second-photo{
+    padding: 90px;
+    background-color: #e1f5e4;
+    height: inherit;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+.recommended{
+    padding-left: 100px;
+    padding-right: 80px;
+}
+
+.first-r{
+    height: 300px;
+    background-color: #bbf2c1;
+    display: flex;
+}
+
+.grid {
+    width: 1400px;
+    max-width: 100%;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: 1fr;
+    grid-auto-flow: row dense;
+    grid-gap: 10px;
+    /* counter-reset: boxes; */
+  }
+  
+  .box {
+    position: relative;
+    color: rgba(255,255,255,.7);
+    font-size: 2rem;
+    font-family: sans-serif;
+    counter-increment: boxes;
+    
+    &::before {
+      content: "";
+      display: block;
+      width: 100%;
+      padding-top: 50%;
+    }
+   
+    &::after {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      content: counter(boxes);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: 0;
+      left: 0;
+    }
+  }
+  
+  .blue {
+    
+   
+  }
+  
+  .red {
+    
+    
+  }
+  
+  .green {
+   
+    
+  }
+  
+  .tall {
+    grid-column: span 1;
+    grid-row: span 2;
+  }
+  
+  .wide {
+    grid-row: span 1;
+    grid-column: span 2;
+  }
+  
+  .square {
+    grid-row: span 1;
+    grid-column: span 1;
+  }
+  
+  .shuffleWrap {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  @media(max-width: 500px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+    .wide {
+      grid-column: span 1;
+    }
+  }
+
+  .grid img{
+    width: 200px;
+    height: 200px;
+  }
+  .grid div{
+    display: flex;
+    justify-content: flex-start;
+  }

@@ -1,0 +1,10 @@
+.home{
+    display: flex;
+   flex-direction: row;
+}
+.mainContent{
+    background-color:red;
+    width: 60vw;
+    height: 100vh;
+   
+}

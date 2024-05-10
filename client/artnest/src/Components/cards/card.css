@@ -1,0 +1,42 @@
+
+.card{
+
+   
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    &:hover{
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    }
+}
+
+.card_img{
+    height: 70%;
+}
+.card_info{
+    
+    height: 30%;
+}
+
+.card_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+}
+
+.card_category{
+   color: black;
+    height: 25%;
+}
+
+.card_like_comment{
+    display: flex;
+    flex-direction: column;
+}

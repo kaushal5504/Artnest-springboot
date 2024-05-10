@@ -1,0 +1,120 @@
+.abstract-logo_block{
+    height: 20%;
+}
+
+
+.wishlist-heading{
+    
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.wishlist-productsRow{
+    margin-top: 20px;
+    padding: 0;
+  border: 0;
+  margin: 0;
+    background-color: inherit;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    
+    height: 70vh;
+    width: 100%;
+    overflow-y: auto; 
+}
+
+.wishlist-productsRow table {
+    padding: 0;
+  border: 0;
+  margin: 0;
+    background-color: inherit;
+    width: 100%; 
+    height: 70vh;
+    border-collapse: collapse; 
+  }
+
+  table td:nth-child(1) { 
+    width: 20%;
+    height: 100%;
+  }
+  
+  table td:nth-child(2) {  /* Target the second cell (title) */
+    width: 50%;
+    
+  }
+  
+  table td:nth-child(3) {  /* Target the third cell (quantity) */
+    width: 15%;
+  }
+  
+  table td:nth-child(4) {  /* Target the fourth cell (button) */
+    width: 15%;
+  }
+
+  .wishlist-productsRow table {
+    border-collapse: collapse; /* Ensure proper spacing between cells */
+  }
+  
+  .wishlist-productsRow tbody tr {
+    height: 150px; /* Adjust height as needed */
+    margin-bottom: 10px; /* Add margin for spacing */
+  }
+  
+  
+  .wishlist-productsRow table tr td { /* Style table cells */
+    padding-left: 20px;
+    border: 1px solid #ddd; /* Add a light border for separation */
+    text-align: left; /* Align content to the left (adjust as needed) */
+    height: 50%;
+  }
+  
+  .wishlist-productsRow table tr td img { /* Style product image */
+   
+        width: 60%; /* Ensure image fills the entire cell width */
+        height: 60%; /* Ensure image fills the entire cell height */
+        object-fit: cover; /* Maintain aspect ratio and crop if necessary */
+        border-radius: 50%; /* Make the image a circle */
+      
+      
+  }
+  
+  .wishlist-productsRow table tr td button { /* Style the delete button */
+    background-color: lightblue;
+    color: black;
+    border: none; /* Remove default border */
+    padding: 5px 10px; /* Adjust padding as desired */
+    cursor: pointer; /* Indicate interactivity */
+  }
+
+.addProduct{
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.add-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+  border-color: white;
+    width: 30%;
+    height: 20%;
+    border-style: none;
+    background-image: linear-gradient(to right, #e95050, #ca50e9, #29dd86);
+    color: antiquewhite;
+}
+.totalPrice{
+    
+    color: black;
+    height: 10vh;
+}
